@@ -12,7 +12,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return { title: t('brand'), robots: { index: false, follow: false } }
 }
 
-// 登录之后默认到这里。账 56 起 knowledge 网页端没有给用户看的页面（数据目录在管理端）：
+// 登录之后默认到这里。账 56 起 knowbase 网页端没有给用户看的页面（数据目录在管理端）：
 // 只说明一句，不装作有内容。
 export default async function DashboardPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params

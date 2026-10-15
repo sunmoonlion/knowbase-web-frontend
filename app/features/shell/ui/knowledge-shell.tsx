@@ -4,8 +4,8 @@ import { useTranslations } from 'next-intl'
 
 import { LogoutButton } from '@/components/auth/logout-button'
 
-// knowledge 网页端的外框：顶上一条。账 56 起这里没有给用户看的页面：
-// 数据目录在 knowledge 管理端，对用户，公共数据在 investment 里「问就有」。
+// knowbase 网页端的外框：顶上一条。账 56 起这里没有给用户看的页面：
+// 数据目录在 knowbase 管理端，对用户，公共数据在 investment 里「问就有」。
 export function KnowledgeShell({
   csrfToken,
   locale,
