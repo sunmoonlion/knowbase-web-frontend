@@ -85,6 +85,6 @@
   "shell": {
     "brand": "Data service",
     "nothingHere": "There is nothing for you to see here.",
-    "hint": "Ask an expert or agent in investment and the data is there; the data catalog lives in the admin console."
+    "hint": "Ask an expert or agent in knowbench and the data is there; the data catalog lives in the admin console."
   }
 }
